@@ -1,0 +1,200 @@
+@import "../../styles/Variables.module.scss";
+@import "../../styles/Breakpoints.module.scss";
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    width:100%;
+    height: fit-content;
+}
+  
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.carouselSlides{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    position: relative;
+}
+  
+.slide {
+min-width: 33%;
+min-height: 250px;
+border-radius: $border-radius-div;
+box-shadow: $inner-shadow;
+margin:0 5px;
+position: absolute;
+top: 0;
+transition: transform 1s ease, opacity 1s ease;
+}
+
+
+
+.currentSlide {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 2;
+}
+
+.prevSlide{
+    transform: translateX(-100%) scale(0.8);
+    opacity: 0.5;
+    z-index: 1;
+} 
+
+.nextSlide {
+    transform: translateX(100%) scale(0.8);
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.inactiveSlide {
+    opacity: 0;
+    transform: translateX(0) scale(0.8);
+}
+
+
+.slideInfo{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    gap:50px;
+    height: fit-content;
+
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:30%;
+    height: fit-content;
+    
+}
+
+.titleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.title {
+    margin:0;
+    font-size: 1.5em;
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px;
+    flex-wrap: wrap;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:70%;
+    overflow: hidden;
+}
+.description {
+    align-self: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /* Flexbox-like behavior for clamping */
+    -webkit-line-clamp: 4; /* Limits the text to 3 lines */
+    -webkit-box-orient: vertical;
+    height: auto;
+}
+.more{
+    align-self: flex-end;
+    color: $action-color;
+
+    &:visited{
+        color: $action-color;
+    }
+
+    &:hover{
+        color:$hover-color;
+    }
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    gap:50px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: $bg-color;
+    box-shadow: $drop-shadow;
+    border: none;
+    border-radius: $border-radius-div;
+    cursor: pointer;
+    z-index: 5;
+    width:100px;
+    padding-bottom: 10px;
+
+    &:hover{
+        box-shadow: $inner-shadow;
+        background-color: $primary-color;
+    }
+
+}
+
+
+@keyframes currentSlide {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+@keyframes previousSlide {
+    0% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateX(-103%);
+    }
+}
+
+@keyframes nextSlide {
+    0% {
+        opacity: 1;
+        transform: translateX(0%);
+        
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateX(103%);
+        
+    }
+}
+

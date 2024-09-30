@@ -1,0 +1,17 @@
+@import "../../styles/Variables.module.scss";
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+    box-shadow: $inner-shadow;
+    border-radius: $border-radius-div;
+    padding:7px;
+}
+
+.label, .nameContainer {
+    padding:0;
+    margin: 0;
+    font-weight: 700;
+}

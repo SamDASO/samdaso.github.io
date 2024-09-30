@@ -1,0 +1,36 @@
+{
+    "positionTitle": "Software developer",
+    "myName": "Samanta DA SILVA",
+    "homeIcon": "Home",
+    "language": "Français",
+    "languageInfo": "Languages :",
+    "contact": "Contact",
+    "profileDesc": "Developer currently training in PHP and MySQL. Passionate about new technologies and with a strong interest in arts and creativity, I embrace a philosophy of continuous learning with the goal of constantly improving myself. My versatility, acquired through various degrees and skills, allows me to gladly share my knowledge.",
+    "titleSkills": "Technological skills",
+    "titleAcademic": "Academic background (France)",
+    "lvl6": "Lvl 6 - bachelor's degree/first master's degree",
+    "lvl6Content" : "Software Developer JavaScript - REACT",
+    "master": "Second master's degree",
+    "masterContent": "Management of Health and Medical Organisations",
+    "bachelor": "Bachelor's degree",
+    "plus": "Click to see more...",
+    "imageInfo": "Click on an image to see it larger.",
+    "GitHubLink": "Project github link",
+
+    "descriptionsProjects": 
+    {
+        "desc1": "This is my first dynamic project. It's an online toolbox. It includes a to-do list that saves task information independently for each user, along with a calculator and a timer with a stopwatch. Through this project, I have gained an understanding of basic JavaScript logic and improved my CSS skills",
+        "desc2": "A simple project to work with a mockup. The work was done with only HTML and CSS. It's a project meant to work with design references and good HTML5 usage. This showcases a fictional website for renting accommodations and searching for activities based on a specific location. ",
+        "desc3": "A project that utilizes SCSS. All the pages were created directly in HTML5. The animations were complex for some elements, such as the filling hearts when liking a restaurant and the loading page. This showcases a fictional website for ordering dishes from restaurants, with no database involved.",
+        "desc4": "Creation of a modal using JavaScript. Management of permissions and validation of registration forms. No database involved. This was a fictional website for contests sign up.",
+        "desc5": "This fictional photographers' website focuses on ensuring good accessibility. Management of dynamic JSON data integrated into the project. A system for sorting image and video data was created, along with the dynamic management of likes changed by users. This is a slightly more complex project, primarily written in JavaScript, with a substantial database. ", 
+        "desc6": "This website focuses on displaying recipes based on algorithms. It was coded in TypeScript and uses integrated JSON data. The most important parts are the algorithms. The recipes can be sorted using different dropdown menus, each of which contains a list of tags affected by other filters. This is coded as a React project, with component logic and state management",
+        "desc7": "This project was intended to run tests and fix bugs based on various reports. This is a simulated HR portal. The back-end and front-end was already created and used to be able to connect into the accounts and creating or managing bills. I used the Jest library for unit and integration tests. After that, I wrote an end-to-end test using the 'given - when - then' method.", 
+        "desc8": "This project was created using Create React App. It follows the React methodology and component structure with consistent styling. It includes animated dropdown menus and the creation of a looping carousel. This fictional project showcases rental properties offered by individuals. The JavaScript database is integrated into the project files.",
+        "desc9": "This project was created with an internal data management system (mock), with the ability to switch to an API database by calling predefined endpoints. The Recharts library was used and the components were customized according to the project's style guide and design. All components have display and error states, with the option to reload the component without reloading the entire page. The graphs are generated dynamically based on the database.",
+        "desc10": "This project aimed to work on an authentication system with API calls. It involved reading Swagger documentation and creating a Swagger file for a user transaction management system. API calls were secured using tokens, allowing connections to remain secure while keeping session information in memory so users could navigate between multiple pages without being logged out. Basic use of MongoDB was implemented to analyze the database and track changes (such as name updates) that could be made.", 
+        "desc11": "This project aimed to update and improve the performance of a fictional internal software by replacing jQuery plugins with React components. Most of the components were created using Material UI (library) and customized to have a modern and coherent design. In addition, a modal was created as a package on GitHub. A detailed and explanatory README accompanies it, allowing the component to be integrated into any other project with a default style. It can be found and used on my GitHub account. The other components are a date picker system, a dropdown menu, and a sortable table."
+    }
+
+}
+  

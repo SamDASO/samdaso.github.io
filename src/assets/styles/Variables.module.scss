@@ -1,0 +1,19 @@
+$text-color: #000;
+$light-color: #ebe5e5;
+$primary-color: #189EA5;
+$bg-color: #cce6e8;
+$action-color: #534666;
+$hover-color: #CD7672;
+$hover-color-shadow: rgb(205, 118, 114, 0.8);
+
+
+$drop-shadow: 10px 10px 30px rgba(34, 72, 75, 0.1),
+/* Light shadow on the top-left */
+-10px -10px 30px rgba(240, 247, 248, 0.7);
+
+$inner-shadow: inset 5px 5px 30px rgba(34, 72, 75, 0.2),
+/* Light inner shadow on the top-left */
+inset -5px -5px 30px rgba(240, 247, 248, 0.7);
+
+
+$border-radius-div: 20px;

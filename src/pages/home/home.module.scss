@@ -1,0 +1,122 @@
+@import "../../assets/styles/Variables.module.scss";
+@import "../../assets/styles/Breakpoints.module.scss";
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: 30px auto;
+
+    @media screen and (max-width: $small-screen){
+        max-width: none;
+    }
+}
+
+.profileDescription {
+    color: $action-color;
+    font-weight: 700;
+    padding:10px;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    height: fit-content;
+
+    @media screen and (max-width: $small-screen){
+        flex-direction: column;
+    }
+}
+
+.academicBgr, .skills {
+    background-color: $bg-color;
+    box-shadow: $drop-shadow;
+    border-radius: $border-radius-div;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.academicBgr{
+    width:170%;
+
+    @media screen and (max-width: $small-screen){
+        width:auto;
+    }
+}
+
+
+.academicTitle, .skillsTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+
+.borderBottom {
+    position: relative;
+  }
+  
+  .borderBottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    width: 50%;
+    background: linear-gradient(to right, $primary-color, $action-color);
+    border-radius: 10px;
+  }
+  
+
+.icon {
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.academicList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillsList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.carousel, .profileDesc{
+    display: flex;
+    justify-content: center;
+    background-color: $bg-color;
+    box-shadow: $drop-shadow;
+    border-radius: $border-radius-div;
+    padding: 30px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.carousel {
+    overflow: hidden;
+    gap:20px;
+    margin-top: 30px;
+}
+
+.profileDesc {
+    width:70%;
+    margin: 0 auto 30px;
+}

@@ -1,0 +1,36 @@
+{
+    "positionTitle": "Développeur application",
+    "myName": "Samanta DA SILVA",
+    "homeIcon": "Accueil",
+    "language": "English",
+    "languageInfo": "Langues :",
+    "contact": "Contacter",
+    "profileDesc": "Développeuse actuellement en formation en PHP et MySQL. Passionnée par les nouvelles technologies et dotée d'une grande appétence pour les arts et la créativité, j'adopte une philosophie d'apprentissage continu dans l'objectif de me perfectionner constamment. Ma polyvalence, acquise grâce à mes différents diplômes et compétences, me permet de mettre avec plaisir mes savoirs à disposition.",
+    "titleSkills": "Compétences technologiques",
+    "titleAcademic": "Formations (France)",
+    "lvl6": "BAC +3/4 - niveau 6",
+    "lvl6Content": "Développeur application JavaScript - REACT",
+    "master": "BAC +5 - MASTER 2",
+    "masterContent": "Management des Organisations Sanitaires et Médico-sociales",
+    "bachelor": "BAC +3 - Bachelor",
+    "plus": "Voir plus...",
+    "imageInfo": "Cliquez sur une image pour la voir en grand.",
+    "GitHubLink": "Lien github du projet",
+
+    "descriptionsProjects": 
+    {
+        "desc1": "Ceci est mon premier projet dynamique. C'est une boîte à outils en ligne. Elle comprend une liste de tâches qui enregistre les informations (indépendamment) pour chaque utilisateur, ainsi qu'une calculatrice et un minuteur avec un chronomètre. Grâce à ce projet, j'ai acquis une compréhension de la logique JavaScript et ai amélioré mes compétences en CSS.",
+        "desc2": "Un projet simple qui m'a permis de travailler avec une maquette. Le travail a été réalisé uniquement avec HTML et CSS. C'est un projet conçu pour travailler avec des références et savoir faire preuve d'une bonne utilisation de HTML5. Il présente un site fictif pour la location de logements et la recherche d'activités en fonction d'un lieu spécifique.",
+        "desc3": "Un projet qui m'a permis d'utiliser SCSS. Toutes les pages ont été créées directement en HTML5. Les animations étaient complexes pour certains éléments, comme le remplissage des cœurs lors du like d'un restaurant et la page de chargement. Il s'agit d'un site fictif permettant de commander des plats dans des restaurants, sans base de données.",
+        "desc4": "Création d'une modale avec JavaScript. Gestion des permissions et validation des formulaires d'inscription. Aucune base de données impliquée. Il s'agissait d'un site fictif pour l'inscription à des concours.",
+        "desc5": "Ce site fictif pour photographes se concentre surtout sur une bonne accessibilité générale. Gestion dynamique de données JSON intégrées au projet. Le système de tri des images et vidéos est fonctionnel, ainsi que la gestion dynamique des likes qui peuvent être modifiés par les utilisateurs. C'est un projet un peu plus complexe, principalement écrit en JavaScript, avec une base de données conséquente.",
+        "desc6": "Ce site met l'accent sur l'affichage de recettes, basé sur des algorithmes. Il a été codé en TypeScript et utilise des données JSON intégrées. Les parties les plus importantes sont les algorithmes. Les recettes peuvent être triées à l'aide de différents menus déroulants, chacun contenant une liste de tags affectés par d'autres filtres. Il s'agit d'un projet qui n'utilise pas React mais qui pour autant suit une logique similaire (création de composants et gestion d'état (states) global.",
+        "desc7": "Ce projet avait pour but de réaliser des tests et de corriger des bugs sur la base de rapports de bugs. Il s'agit d'un portail RH simulé. Le back-end et le front-end étaient déjà créés et permettaient de se connecter aux comptes et de créer ou gérer des factures. J'ai utilisé Jest pour les tests unitaires et d'intégration. Ensuite, j'ai écrit un test End-to-End en utilisant la méthode 'given - when - then'.",
+        "desc8": "Ce projet a été créé avec Create React App. Il suit la méthodologie React et la structure des composants avec un style cohérent tout au long de l'application. Il inclut des menus déroulants animés et la création d'un carrousel qui boucle sur lui-même. Ce projet fictif présente des biens à louer proposés par des particuliers. La base de données JavaScript est intégrée aux fichiers du projet.",
+        "desc9": "Ce projet a été créé avec un système de gestion de données interne (mock), avec la possibilité de passer à une base de données API en appelant des endpoints prédéfinis. La librairie Recharts a été utilisée et les composant personnalisés selon la maquette. Tous les composants ont des états d'affichage et d'erreur, avec l'option de recharger le composant sans recharger la page entière. Les graphiques sont générés dynamiquement en fonction de la base de données.",
+        "desc10": "Ce projet avait pour objectif de travailler sur un système d'authentification via des appels API. Il impliquait la lecture de la documentation Swagger et la création d'un fichier Swagger pour un système de gestion des transactions utilisateurs. Les appels API étaient sécurisés à l'aide de tokens, permettant de maintenir des connexions sécurisées tout en gardant les informations de session en mémoire afin que les utilisateurs puissent naviguer entre plusieurs pages sans être déconnectés. MongoDB a été utilisé de manière basique pour analyser la base de données et suivre les modifications (comme les mises à jour de nom) pouvant être effectuées.",
+        "desc11": "Ce projet avait pour objectif de mettre à jour et d'améliorer les performances d'un logiciel interne fictif en remplaçant des plugins jQuery par des composants React. La plupart des composants ont été créés à l'aide de la bibliothèque Material UI et personnalisés pour avoir un design moderne et cohérent. De plus, une fenêtre modale a été créée comme package sur GitHub. Un fichier README détaillé et explicatif l'accompagne, permettant au composant d'être intégré dans n'importe quel autre projet avec un style par défaut. Il est disponible et utilisable sur mon compte GitHub. Les autres composants constituent le système de date picker, le menu déroulant et le tableau de tri."
+    }
+
+}
+  
